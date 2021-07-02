@@ -3,17 +3,7 @@
     --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
     --my-name:rgb(164, 88, 81);
 }
-/* .contact-section{
-   
-    width: 100%;
-    height: calc(120vh - 50px);
-    background-color: rgb(35, 138, 156);
-    position: relative;
-    top: 70px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-       
-} */
+
 .contact-section{
     padding: 100px 0 80px;
     min-height: 100vh;
