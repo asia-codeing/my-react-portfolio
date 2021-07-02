@@ -6,7 +6,7 @@ export default function Nav() {
         <div className='navbar-items'>
             <p className='home'>Home</p>
             <p className='about'>About</p>
-            <p className='works'>Works</p>
+            <p className='projects'>Projects</p>
             <p className='contact'>Contact</p>
         </div>
     )

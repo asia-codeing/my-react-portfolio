@@ -2,16 +2,8 @@
     --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
     --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
     --my-name:rgb(164, 88, 81);
+    --steelBlue:#5880A6;
 }
-/* .about-section{
-    width: 100%;
-    height: calc(120vh - 50px);
-    /* background-color: rgb(49, 148, 66); */
-    /* position: relative; */
-    /* top: 70px; */
-    /* scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    } */ */
 
     .outer-shadow{
         box-shadow: var(--outer-shadow);
@@ -41,6 +33,7 @@
         display: inline-block;
         font-size: 30px;
         font-weight: 700;
+        color: var(--steelBlue);
         text-transform: uppercase;
         margin: 0;
     }
@@ -56,13 +49,14 @@
         flex: 0 0 40%;
         padding: 0 15px;
     }
-    .about-section .about-img .img-box{
-        padding: 30px;
+    .about-section .about-img .img-box {
+        padding: 31px 40px 30px 20px;
+        border-radius: 52px;
     }
     .about-section .about-img .img-box img{
         width: 100%;
         border: 10px solid transparent;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .about-section .info{
         flex: 0 0 60%;
@@ -84,13 +78,14 @@
     .btn{
         padding: 10px 25px;
         font-size: 18px;
-        font-weight: 500;
-        color: var(--redwood);
+        font-weight: 600;
+        color: var(--steelBlue);
         background-color: transparent;
         line-height: 1.5;
         cursor: pointer;
         border-radius: 30px;
         transition: all 0.3s ease;
+        text-decoration: none;
     
     }
     .btn::after{
