@@ -34,7 +34,7 @@ export default function Projects() {
                 <div className="project-item">
                     <div className="project-item-inner outer-shadow hover-in-shadow ">
                     <div className="project-item-img">
-                        <img src="assets/images/tech-blog.gif" alt="the-tech-blog">
+                        <img src="assets/images/tech-blog.gif" alt="the-tech-blog"/>
                     </div>
                     <p className="project-item-title">The Tech Blog</p>
                     <a href="https://mvc--tech--blog.herokuapp.com/" target="_blank" className="outer-shadow hover-in-shadow btn">See it live</a>
