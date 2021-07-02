@@ -10,7 +10,7 @@ export default function Inrto() {
                     <div className="home-text">
                         <p>Hello</p>
                         <h3>I'm Asia Alnahi</h3>
-                        <h1>Web Developer</h1>
+                        <h1>Full Stack Web Developer</h1>
                     </div>
                     <div className="home-img">
                         <div className="img-box inner-shadow">

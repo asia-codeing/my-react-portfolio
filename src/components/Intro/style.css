@@ -13,7 +13,7 @@
 
 .intro-section{
 width: 100%;
-height: calc(120vh - 50px);
+height: calc(100vh - 50px);
 background-color: rgb(5, 197, 37);
 position: relative;
 top: 70px;
@@ -27,6 +27,8 @@ scroll-snap-type: y mandatory;
 }
 
 .row{
+    width: 100%;
+    height: calc(120vh - 50px);
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
@@ -43,7 +45,7 @@ scroll-snap-type: y mandatory;
     padding: 20px 15px;
 }
 .home-section .home-text {
-    padding: 70px;
+    padding: 30px;
 }
 .home-section .home-text p{
     color: #5880A6;
@@ -53,7 +55,7 @@ scroll-snap-type: y mandatory;
 }
 .home-section .home-text h3{
     font-size: 40px;
-    color: rgb(164, 88, 81);
+    color: var(--my-name);
     margin: 0;
     font-weight: 700;
 }
