@@ -1,0 +1,9 @@
+.about-section{
+    width: 100%;
+    height: calc(120vh - 50px);
+    background-color: rgb(49, 148, 66);
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    }

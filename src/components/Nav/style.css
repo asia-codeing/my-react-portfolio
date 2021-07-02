@@ -1,8 +1,21 @@
-.navbar-items p{
+.navbar-items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 16px;
+    justify-content: space-evenly;
     padding: 13px 30px;
 }
+/* p{
+    font-size: 16px;
+    padding: 20px;
+    border-bottom: solid 2px rgb(255, 241, 220);
+} */
+.home,
+.about,
+.works,
+.contact
+{
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: solid 2px rgb(255, 241, 220);
+}
+

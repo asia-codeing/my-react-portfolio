@@ -4,10 +4,10 @@ import './style.css';
 export default function Nav() {
     return (
         <div className='navbar-items'>
-            <p>Home</p>
-            <p>About</p>
-            <p>Works</p>
-            <p>Contact</p>
+            <p className='home'>Home</p>
+            <p className='about'>About</p>
+            <p className='works'>Works</p>
+            <p className='contact'>Contact</p>
         </div>
     )
 }

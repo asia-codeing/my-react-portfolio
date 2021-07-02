@@ -1,12 +1,14 @@
 .footer{
     width: 100%;
-    height: 34px;
-    padding: 6px;
+    height: 30px;
+    padding-bottom:16px;
+    /* background-color: #fff; */
     color:darkgray;
     font-size: 15px;
+    margin-top:30px;
     position: relative;
-    top: 250px;
     bottom: 0px;
     border-top: solid 1px darkgray;
     text-align: center;
+    z-index: 20;
 }

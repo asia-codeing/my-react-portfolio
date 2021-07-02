@@ -1,0 +1,9 @@
+.intro{
+width: 100%;
+height: calc(120vh - 50px);
+background-color: rgb(5, 197, 37);
+position: relative;
+top: 70px;
+scroll-behavior: smooth;
+scroll-snap-type: y mandatory;
+}
