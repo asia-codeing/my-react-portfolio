@@ -3,12 +3,81 @@
     --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
     --my-name:rgb(164, 88, 81);
 }
-.about-section{
+/* .about-section{
     width: 100%;
     height: calc(120vh - 50px);
-    background-color: rgb(49, 148, 66);
-    position: relative;
-    top: 70px;
-    scroll-behavior: smooth;
+    /* background-color: rgb(49, 148, 66); */
+    /* position: relative; */
+    /* top: 70px; */
+    /* scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    } */ */
+
+    .outer-shadow{
+        box-shadow: var(--outer-shadow);
+    }
+    .inner-shadow{
+        box-shadow: var(--inner-shadow);
+    }
+
+    .about-section{
+        padding: 80px 0 80px;
+        min-height: 100vh;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-title{
+        padding: 0 15px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom:60px ;
+    }
+    .section-title h2{
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .section-title h2::before{
+        content: attr(data-heading);
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--my-name);
+    }
+
+    .about-section .about-img{
+        flex: 0 0 40%;
+        padding: 0 15px;
+    }
+    .about-section .about-img .img-box{
+        padding: 30px;
+    }
+    .about-section .about-img .img-box img{
+        width: 100%;
+        border: 10px solid transparent;
+        border-radius: 5px;
+    }
+    
+    .about-section .info{
+        flex: 0 0 60%;
+        max-width: 60%;
+        height: 55vh;
+        padding: 50px 30px;
+    }
+    .about-section .info p{
+        line-height: 26px;
+        margin-bottom:30px ;
+    }
+    .about-section .info span{
+        font-weight: 600;
+    }
+    .about-section .info .btn {
+     margin: 30px 20px 0 0;
     }
