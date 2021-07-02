@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import MyImage from '../../../public/assets/images/profile.png'
+import image from '../../assets/images/profile.png'
 
 export default function Inrto() {
     return (
@@ -14,7 +14,7 @@ export default function Inrto() {
                     </div>
                     <div class="home-img">
                         <div class="img-box inner-shadow">
-                            <img src={MyImage} class="outer-shadow" alt="myprofile"/>
+                            <img src={image} class="outer-shadow" alt="Asia"/>
                         </div>
                     </div>
                 </div>
