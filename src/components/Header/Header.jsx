@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from '../Navbar/Navbar';
+import Nav from '../Nav/Nav'
 import './style.css';
 
 export default function Header() {
@@ -8,6 +8,7 @@ export default function Header() {
             <div className='header-wrapper'>
                 <div className='logo'> 
                     <a href='#home'>Asia Alnahi.</a>
+                    <Nav/>
                 </div>
             </div>
         </div>
