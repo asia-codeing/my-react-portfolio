@@ -5,16 +5,16 @@ import image from '../../assets/images/profile.png'
 export default function Inrto() {
     return (
         <div className="home-section" id="intro">
-           <div class="container">
-               <div class="row full-screen">
-                    <div class="home-text">
+           <div className="container">
+               <div className="row full-screen">
+                    <div className="home-text">
                         <p>Hello</p>
-                        <h2>I'm Asia Alnahi</h2>
+                        <h3>I'm Asia Alnahi</h3>
                         <h1>Web Developer</h1>
                     </div>
-                    <div class="home-img">
-                        <div class="img-box inner-shadow">
-                            <img src={image} class="outer-shadow" alt="Asia"/>
+                    <div className="home-img">
+                        <div className="img-box inner-shadow">
+                            <img src={image} className="outer-shadow" alt="Asia"/>
                         </div>
                     </div>
                 </div>
