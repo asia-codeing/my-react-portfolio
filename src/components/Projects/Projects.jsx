@@ -3,6 +3,9 @@ import './style.css';
 import songapp from "../../assets/images/what's-the-song.png";
 import moi from '../../assets/images/moi-me-ries.png';
 import tech from '../../assets/images/tech-blog.gif';
+import note from  '../../assets/images/notes-taker.gif';
+import weather from '../../assets/images/weather-app.png';
+import quiz from '../../assets/images/quiz-app.png';
 
 export default function Projects() {
     return (
@@ -47,7 +50,7 @@ export default function Projects() {
                 <div class="project-item">
                     <div class="project-item-inner outer-shadow hover-in-shadow ">
                     <div class="project-item-img">
-                        <img src="assets/images/notes-taker.gif" alt="notes-taker"/>
+                        <img src={note} alt="notes-taker"/>
                     </div>
                     <p class="project-item-title">Notes Taker</p>
                     <a href="https://notes--application.herokuapp.com/" target="_blank" class="outer-shadow hover-in-shadow btn" rel="noreferrer">See it live</a>
@@ -57,7 +60,7 @@ export default function Projects() {
                 <div class="project-item">
                     <div class="project-item-inner outer-shadow hover-in-shadow  ">
                     <div class="project-item-img">
-                        <img src="assets/images/weather-app.png" alt="weather-dashboard"/>
+                        <img src={weather} alt="weather-dashboard"/>
                     </div>
                     <p class="project-item-title">Weather Dashboard app</p>
                     <a href="https://asia-codeing.github.io/weather-dashboard/" target="_blank" class="outer-shadow hover-in-shadow btn" rel="noreferrer">See it live</a>
@@ -67,7 +70,7 @@ export default function Projects() {
                 <div class="project-item">
                     <div class="project-item-inner outer-shadow hover-in-shadow ">
                     <div class="project-item-img">
-                        <img src="assets/images/quiz-app.png" alt="quiz-challenge"/>
+                        <img src={quiz} alt="quiz-challenge"/>
                     </div>
                     <p class="project-item-title">Quiz Challenge</p>
                     <a href="https://asia-codeing.github.io/quiz-application/" target="_blank" class="outer-shadow hover-in-shadow btn" rel="noreferrer">See it live</a>
