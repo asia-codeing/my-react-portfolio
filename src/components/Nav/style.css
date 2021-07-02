@@ -23,8 +23,11 @@
 .projects,
 .contact
 {
+    color: var(--my-name);
     font-size: 18px;
     padding: 20px;
     border-bottom: solid 2px var(--beag);
 }
-
+.link{
+    text-decoration: none;
+}
