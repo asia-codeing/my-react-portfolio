@@ -44,13 +44,14 @@
         font-weight: 600;
         color: var(--my-name);
     }
-
+    
     .about-section .about-img{
         flex: 0 0 40%;
         padding: 0 15px;
+        
     }
     .about-section .about-img .img-box {
-        padding: 31px 40px 30px 20px;
+        padding: 31px 55px 30px 30px;
         border-radius: 52px;
     }
     .about-section .about-img .img-box img{
