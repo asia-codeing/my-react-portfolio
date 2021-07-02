@@ -64,7 +64,6 @@
         border: 10px solid transparent;
         border-radius: 5px;
     }
-    
     .about-section .info{
         flex: 0 0 60%;
         max-width: 60%;
@@ -80,4 +79,20 @@
     }
     .about-section .info .btn {
      margin: 30px 20px 0 0;
+    }
+
+    .btn{
+        padding: 10px 25px;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--redwood);
+        background-color: transparent;
+        line-height: 1.5;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+    
+    }
+    .btn::after{
+        border-radius: 30px;
     }
