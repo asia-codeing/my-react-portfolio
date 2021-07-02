@@ -78,6 +78,7 @@
     .btn{
         padding: 10px 25px;
         font-size: 18px;
+        margin: 38px;
         font-weight: 600;
         color: var(--steelBlue);
         background-color: transparent;
