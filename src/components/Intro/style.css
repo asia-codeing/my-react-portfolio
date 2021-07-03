@@ -28,7 +28,7 @@ scroll-snap-type: y mandatory;
 
 .row{
     width: 100%;
-    height: calc(120vh - 50px);
+    height: calc(100vh - 50px);
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
