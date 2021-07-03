@@ -5,8 +5,8 @@
 }
 
 .contact-section{
-    padding: 100px 0 80px;
-    min-height: 100vh;
+    padding: 10px 0 80px;
+    min-height: 120vh;
 }
 .contact-section .contact-item{
     flex: 0 0 50%;
