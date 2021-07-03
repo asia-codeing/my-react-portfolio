@@ -9,7 +9,7 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router  basename={window.location.pathname || ''}>
       <div className="App">
         <Header/>
         <Switch>
