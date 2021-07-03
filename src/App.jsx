@@ -9,14 +9,14 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <Router  basename={window.location.pathname || ''}>
+    <Router>
       <div className="App">
         <Header/>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/about' component={AboutMe}/>
-          <Route exact path='/projects' component={MyProjects}/>
-          <Route exact path='/contact' component={ContactMe}/>
+          <Route  path='/about' component={AboutMe}/>
+          <Route  path='/projects' component={MyProjects}/>
+          <Route  path='/contact' component={ContactMe}/>
             {/* <Home/>
             <AboutMe/>
             <MyProjects/>
