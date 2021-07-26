@@ -18,7 +18,7 @@ export default function About() {
                </div>
             </div>
             <div className="info">
-              <p><span>My Name is Asia Alnahi</span> Full stack web developer with background in HTML, CSS,Bootstrap, GitHub, JavaScript, Node js, Sequelize, My SQL, Handlebars, Express, MVC, MongoDB and Heroku. With passion for creating web applications that are easy to use and responsive so they can  work on different screen sizes. Innovative problem-solver and development. Strengths in creativity, teamwork, and building projects from ideation to execution.
+              <p><span>My Name is Asia Alnahi</span> Full stack web developer with background in HTML, CSS,Bootstrap, GitHub, JavaScript, Node js, Sequelize, My SQL, Handlebars, Express, MVC, MongoDB, React.js and Heroku. With passion for creating web applications that are easy to use and responsive so they can  work on different screen sizes. Innovative problem-solver and development. Strengths in creativity, teamwork, and building projects from ideation to execution.
               </p>
               <a href={Resume} target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">Download Resume</a>
             </div>
