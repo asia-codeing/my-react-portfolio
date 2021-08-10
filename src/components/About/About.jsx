@@ -18,7 +18,7 @@ export default function About() {
                </div>
             </div>
             <div className="info">
-              <p><span>My Name is Asia Alnahi</span> Full stack web developer with background in HTML, CSS,Bootstrap, GitHub, JavaScript, Node js, Sequelize, My SQL, Handlebars, Express, MVC, MongoDB, React.js and Heroku. With passion for creating web applications that are easy to use and responsive so they can  work on different screen sizes. Innovative problem-solver and development. Strengths in creativity, teamwork, and building projects from ideation to execution.
+              <p><span>My Name is Asia Alnahi</span> A full-stack web developer with a passion for creating interactive and responsible web applications. Recently earned a certificate in Full Stack Web Development from the University of Washington and I gained experience in the foundations of web development while honing my skills in HTML, CSS, Bootstrap, GitHub, JavaScript, Node js, Sequelize, My SQL, Handlebars, Express, MongoDB, React.js,Heroku, and responsive web design. I am able to collaborate and work with a team while solving problems in high-stress environments and having an appetite for continuous learning. Excited to leverage my skills in the future as part of a fast-paced, quality-driven team in order to build better experiences on the web.
               </p>
               <a href={Resume} target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">Download Resume</a>
             </div>
