@@ -24,7 +24,7 @@ export default function Contact() {
                         <div className="contact-item-inner outer-shadow hover-in-shadow ">
                             <img src={email} alt="email"/>
                             {/* <!-- <span>Email</span> --> */}
-                            <a href="mailto:asia.alius@gmail.com"  target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">Email</a>
+                            <a href="mailto:asia.alius@gmail.com"  target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">asia.alius@gmail.com</a>
                         </div>
                     </div>
                     <div className="contact-item">
