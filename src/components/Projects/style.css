@@ -6,7 +6,7 @@
 
     .outer-shadow-p{
         box-shadow: var(--outer-shadow);
-        height: 450px;
+        height: 550px;
         padding: 20px;
         margin-top: 10px;
         border-radius: 8px;
@@ -14,8 +14,7 @@
     .inner-shadow{
         box-shadow: var(--inner-shadow);
     }
-    
-    
+     
     .project-section{
         padding: 80px 0 80px;
         min-height: calc(300vh-50px);
@@ -62,10 +61,21 @@
 
     .project-item-title{
         font-size: 18px;
-        margin: 20px;
-        padding: 20px;
+        margin-left: 20px;
+        /* padding: 20px; */
         text-transform: capitalize;
         color: var(--oliveDrab7);
+    }  
+    .project-description{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        /* padding: 20px; */
+        width: 300px;
+    }
+    .project-links{
+        margin-top: 50px;
+ 
     }
     .project-section .project-item-inner a{
         font-size: 16px;
