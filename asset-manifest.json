@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.514b42f7.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.be7ec353.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.be7ec353.chunk.js.map",
+    "main.css": "/my-react-portfolio/static/css/main.e588c81f.chunk.css",
+    "main.js": "/my-react-portfolio/static/js/main.4c7fede9.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.4c7fede9.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.b519b8ad.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.b519b8ad.js.map",
     "static/js/2.fdc58f81.chunk.js": "/my-react-portfolio/static/js/2.fdc58f81.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.a7e2d804.chunk.js": "/my-react-portfolio/static/js/3.a7e2d804.chunk.js",
     "static/js/3.a7e2d804.chunk.js.map": "/my-react-portfolio/static/js/3.a7e2d804.chunk.js.map",
     "index.html": "/my-react-portfolio/index.html",
-    "static/css/main.514b42f7.chunk.css.map": "/my-react-portfolio/static/css/main.514b42f7.chunk.css.map",
+    "static/css/main.e588c81f.chunk.css.map": "/my-react-portfolio/static/css/main.e588c81f.chunk.css.map",
     "static/js/2.fdc58f81.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.fdc58f81.chunk.js.LICENSE.txt",
     "static/media/icons8-github.895050b2.svg": "/my-react-portfolio/static/media/icons8-github.895050b2.svg",
     "static/media/moi-me-ries.7ca9cdc7.png": "/my-react-portfolio/static/media/moi-me-ries.7ca9cdc7.png",
-    "static/media/my-resume.2bff45b6.pdf": "/my-react-portfolio/static/media/my-resume.2bff45b6.pdf",
+    "static/media/my-resume.230b6cb2.pdf": "/my-react-portfolio/static/media/my-resume.230b6cb2.pdf",
     "static/media/notes-taker.0e30f40d.gif": "/my-react-portfolio/static/media/notes-taker.0e30f40d.gif",
     "static/media/profile.0d675027.png": "/my-react-portfolio/static/media/profile.0d675027.png",
     "static/media/profile2.fc9ef83e.png": "/my-react-portfolio/static/media/profile2.fc9ef83e.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.b519b8ad.js",
     "static/js/2.fdc58f81.chunk.js",
-    "static/css/main.514b42f7.chunk.css",
-    "static/js/main.be7ec353.chunk.js"
+    "static/css/main.e588c81f.chunk.css",
+    "static/js/main.4c7fede9.chunk.js"
   ]
 }
