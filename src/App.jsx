@@ -13,14 +13,14 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/about' component={AboutMe}/>
-          <Route exact path='/projects' component={MyProjects}/>
-          <Route exact path='/contact' component={ContactMe}/>
-            {/* <Home/>
-            <AboutMe/>
-            <MyProjects/>
-            <ContactMe/> */}
+          <Route path='/' exact component={() => <Home />}/>
+          
+          <Route path='/about' exact component={() => <AboutMe />}/>
+
+          <Route path='/projects' exact component={() => <MyProjects />} />
+
+          <Route path='/contact' exact component={() => <ContactMe />} />
+            
         </Switch>
         <Footer/>
       </div>

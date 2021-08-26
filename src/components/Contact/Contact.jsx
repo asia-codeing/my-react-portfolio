@@ -16,15 +16,17 @@ export default function Contact() {
                     <div className="contact-item">
                         <div className="contact-item-inner outer-shadow hover-in-shadow ">
                             <img src={phone} alt="phone"/>
-                            <span>phone</span>
-                            <p>(360)842-3924</p>
+                            <span className='sphone-email'>phone</span>
+                            <p className='phone-email'>(360)842-3924</p>
                         </div>
                     </div>
                     <div className="contact-item">
                         <div className="contact-item-inner outer-shadow hover-in-shadow ">
                             <img src={email} alt="email"/>
-                            {/* <!-- <span>Email</span> --> */}
-                            <a href="mailto:asia.alius@gmail.com"  target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">asia.alius@gmail.com</a>
+                            <span className='sphone-email'>Email</span>
+                            <p className='phone-email'>asia.alius@gmail.com</p>
+                       
+                            {/* <a href="mailto:asia.alius@gmail.com"  target="_blank" className="outer-shadow hover-in-shadow btn" rel="noreferrer">asia.alius@gmail.com</a> */}
                         </div>
                     </div>
                     <div className="contact-item">
