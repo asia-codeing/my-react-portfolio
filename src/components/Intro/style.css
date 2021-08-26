@@ -70,12 +70,12 @@ scroll-snap-type: y mandatory;
     display: block;
     margin: 10px;
     border-radius:50%;
-    padding: 10px;
+    padding: 4px;
 }
 .home-section .home-img .img-box img{
     width:100%; 
     border-radius: 50%;
-    border: 6px solid transparent; 
+    border: 1px solid transparent; 
 }
 
 @media (max-width: 751px){
@@ -116,7 +116,7 @@ scroll-snap-type: y mandatory;
         margin-top: -80px;
     }
     .home-section .home-img .img-box img{
-        width:94%; 
+        width:100%; 
         
     }
 }

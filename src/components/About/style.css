@@ -51,8 +51,8 @@
         
     }
     .about-section .about-img .img-box {
-        padding: 31px 55px 30px 30px;
-        border-radius: 52px;
+        padding: 31px 44px 30px 20px;
+        border-radius: 10px;
     }
     .about-section .about-img .img-box img{
         width: 100%;
