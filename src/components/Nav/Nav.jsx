@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import {Link} from 'react-router-dom';
-export default function Nav() {
+import {Link, withRouter} from 'react-router-dom';
+function Nav() {
     return (
         <div className='navbar-items'>
             <Link className='link' to='/'><p className='home'>Home</p></Link>
@@ -11,3 +11,4 @@ export default function Nav() {
         </div>
     )
 }
+export default withRouter(Nav);

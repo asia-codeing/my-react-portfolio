@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
-import memoirs from  '../../assets/images/memoirs.gif';
+import memoirs from  '../../assets/images/memoirs.png';
 import moi from '../../assets/images/moi-me-ries.png';
 import songapp from "../../assets/images/what's-the-song.png";
-import google from '../../assets/images/googlebooks.gif';
-import tech from '../../assets/images/tech-blog.gif';
+import google from '../../assets/images/googlebooks.png';
+import tech from '../../assets/images/tech-blog.png';
 import weather from '../../assets/images/weather-app.png';
 import quiz from '../../assets/images/quiz-app.png';
 
